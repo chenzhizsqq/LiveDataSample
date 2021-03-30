@@ -16,12 +16,20 @@
         android:layout_height="match_parent"
         android:orientation="vertical">
 
+        <!--
+        android:text="@{viewModel.text}"
+        viewModel.text的“.”就是说明对应的是变量
+        -->
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@{viewModel.text}"
             android:textAlignment="center" />
 
+        <!--
+        android:onClick="@{viewModel::onClick}"
+        viewModel::onClick的“::”就是说明对应是函数
+        -->
         <Button
             android:id="@+id/button"
             android:layout_width="wrap_content"
