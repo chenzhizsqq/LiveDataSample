@@ -3,8 +3,6 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools">
 
-    //这里一定要在下面表明，已经给com.test.livedatasample.MainViewModel对应成viewModel了。
-    //一定要在这里写上，这样下面的代码才能给正常的运用对应。
     <data>
         <variable
             name="viewModel"
